@@ -4,6 +4,7 @@ html, body{
     min-height: 100vh;
     box-sizing: border-box;
     letter-spacing: .05rem;
+    padding: 0;
 }
 
 /* .image-one{
