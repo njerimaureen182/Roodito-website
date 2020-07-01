@@ -1,36 +1,77 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,400;0,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300&display=swap');
 
 html, body{
     min-height: 100vh;
     box-sizing: border-box;
-    letter-spacing: .05rem;
-    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: .08px;
+}
+/* index.html start*/
+
+/* landing page start */
+.image-one img{
+    max-width: 100%;
+    background: gray;
+    /* background-image: linear-gradient(red,yellow); */
+    opacity: .8;
+    /* backdrop-filter: blur(8rem); */
 }
 
-/* .image-one{
-    background-color: #eee;
-    background: url(images/library.jpg) no-repeat fixed;
-    background-size: cover;
-} */
-/* .image-one img{
-    width: 1300px;
-    background-size: cover;
-} */
-
-/* .hero{
-    width: 100%;
-	height: 70vh;
-	background-size: cover;
+.landing-img-text h4{
     position: relative;
-} */
+    top: -370px;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, .7);
+}
 
-/* .main-heading span{
-    font-size: 2rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(200px, -500px);
+.landing-img-text span{
+    position: relative;
+    top: -370px;
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .7);
+
+}
+
+.landing-img-text p{
+    position: relative;
+    top: -370px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.landing-img-text a{
+    position: relative;
+    top: -370px;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, .7);
+}
+
+.student-button, .tutor-button{
+    width: 10rem;
+    padding: 10px;
+}
+
+.guardian-button{
+    width: 13rem;
+    padding: 10px;
+
+}
+
+.login-button{
+    width: 14rem;
+    margin-right: -50px;
+}
+
+/* .login-button .fa-chevron-down{
+    font-size: large;
 } */
+/* landing page end */
 
 .avatar {
     width: 50px;
@@ -48,17 +89,33 @@ html, body{
     width: 13rem;
     height: 3rem;
 }
-.kcpe, .kcse, .form-heading h4, .student-signup h4{
+.form-heading h4, .student-signup h4{
     color: rgba(2, 117, 216, .8);
 }
 
-.icon-container i{
+/* apply section start */
+.section-edit{
+    margin-top: -250px;
+}
+.icon-container{
     color: white;
-    border: 1px solid rgba(2, 117, 216, 1);
     border-radius: 50%;
-    font-size: 60px;
-    padding: 30px;
-    background-color: rgba(2, 117, 216, .8);
+    width: 130px;
+    height: 130px;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.icon-item-three img{
+    margin-left: 11px;
+}
+
+.learn-icon{
+    margin-left: -40px;
+}
+
+.online-tests h4, .instruction h4{
+    font-weight: 400;
 }
 
 .online-tests p{
@@ -73,36 +130,59 @@ html, body{
     margin-left: -60px;
 }
 
+.apply{
+    width: 10rem;
+}
+
 .access h4{
-    margin-left: -30px;
+    margin-left: -10px;
+    font-weight: 400;
 }
 
 .access p{
-    margin-left: -40px;
+    margin-left: -23px;
 }
 
-.login, .learn a, .earn a, .confirm{
-    background-color: rgba(2, 117, 216, .8);
-    color: white;
+/* apply section end */
+
+/* ace your kcpes start */
+.kcpe h1, .kcse h1, .hadithi h1{
+    color: rgba(2, 117, 216, .7);
+    font-size: 3.4rem;
 }
 
-.apply{
-    background-color: rgba(2, 117, 216, .8);
-    width: 9rem;
+.kcpe img{
+    width: 100px;
+}
+
+.kcpe p, .kcse p, .hadithi p{
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+
+.kcse img{
+    width: 120px;
+    margin-top: -60px;
+}
+
+.hadithi img{
+    width: 100px;
 }
 
 .learn h4, .earn h4{
     color: rgba(2, 117, 216, .8);
+    font-weight: 600;
 }
 
 .learn p{
     margin-left: -55px;
+    font-weight: 400;
 }
 
 .learn a{
-    background-color: rgba(2, 117, 216, .8);
-    color: white;
-    margin-left: -10px;
+    width: 13rem;
+    margin-left: -40px;
 }
 
 .earn h4{
@@ -111,22 +191,73 @@ html, body{
 
 .earn p{
     margin-left: -80px;
+    font-weight: 400;
 }
 
+.earn a{
+    width: 13rem;
+    margin-left: -20px;
+}
+
+/* ace your kcpes end */
+
+/* footer start */
 .footer{
     background-color: rgba(16, 29, 44, 1);
+}
+
+.footer p{
+    color: rgba(255, 255, 255, .8);
+    font-weight: 500;
 }
 
 .contacts{
     list-style: none;
 }
 
-hr{
+.location img{
+    width: 20px;
+}
+
+.location span, .phone span, .email span{
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, .8);
+    font-weight: 500;
+}
+
+.phone img, .email img{
+    width: 24px;
+}
+
+.horizontal-line{
+    border: 1px solid rgba(255, 255, 255, 0);
     max-width: 1100px;
 }
 
-.social-media i{
-    font-size: 20px;
+.footer-about, .footer-subjects, .footer-past-papers, .footer-contact-us, .footer-terms, .footer-privacy{
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, .8);
+    margin-right: 32px;
+
+}
+
+.linkedin, .facebook, .twitter, .whatsapp{
+    width: 30px;
+    margin-right: 25px;
+}
+
+.linkedin{
+    margin-left: 65px;
+}
+
+
+/* footer start */
+
+/* index.html end */
+
+.confirm{
+    background-color: rgba(2, 117, 216, .8);
+    color: white;
 }
 
 .login-persons a, .account-checking a{
