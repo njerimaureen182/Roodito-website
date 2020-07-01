@@ -19,7 +19,7 @@ html, body{
     background: gray;
     /* background-image: linear-gradient(red,yellow); */
     opacity: .8;
-    /* backdrop-filter: blur(8rem); */
+    /* backface-visibility: hidden; */
 }
 
 .landing-img-text h4{
@@ -35,7 +35,6 @@ html, body{
     font-size: 3rem;
     font-weight: 700;
     color: rgba(0, 0, 0, .7);
-
 }
 
 .landing-img-text p{
@@ -43,6 +42,7 @@ html, body{
     top: -370px;
     font-size: 1.5rem;
     font-weight: 600;
+    color: rgba(0, 0, 0, .7);
 }
 
 .landing-img-text a{
@@ -72,12 +72,6 @@ html, body{
     font-size: large;
 } */
 /* landing page end */
-
-.avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
 
 .profile-img span{
     color: rgba(2, 117, 216, .8);
@@ -175,14 +169,18 @@ html, body{
     font-weight: 600;
 }
 
+.learn h4{
+    margin-left: -10px;
+}
+
 .learn p{
-    margin-left: -55px;
+    margin-left: -110px;
     font-weight: 400;
 }
 
 .learn a{
     width: 13rem;
-    margin-left: -40px;
+    margin-left: -80px;
 }
 
 .earn h4{
@@ -251,9 +249,10 @@ html, body{
 }
 
 
-/* footer start */
+/* footer end */
 
 /* index.html end */
+
 
 .confirm{
     background-color: rgba(2, 117, 216, .8);
