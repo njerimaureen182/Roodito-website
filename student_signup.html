@@ -1,95 +1,136 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- <title>Document</title> -->
 <link rel="shortcut icon" href="images/student.png" style="font-size: 40px;" type="image/x-icon">
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<br><br>
+<style>
+	body{
+		background: url('images/sign-up.jpg') center fixed no-repeat;
+		background-size: cover;
+	}
+</style>
 
-    <div class="jumbotron rounded-md w-75 mx-auto bg-light">
+<body>
+	<br><br>
 
-        <div class="student-signup">
-            <h4 class="display-4 font-weight-bold">Sign up</h4>
-            <br>
-            <span class="lead text-dark">Create a student account. Sign up and start learning</span>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3"></div>
 
-        </div>
+			<div class="col-md-7 student-signup-card">
 
-        <br><br>
+				<div class="card pl-4">
 
-        <form action="">
+					<form action="">
 
-            <div class="form-row">
-                
-                <div class="form-group col-md-5">
-                  <input type="text" class="form-control rounded-pill p-4" id="firstname" placeholder="First Name" required="true">
-                </div>
+						<div class="student-signup">
 
-                <div class="col-md-1"></div>
+							<h4 class="mt-5">Sign up
 
-                <div class="form-group col-md-5">
-                  <input type="text" class="form-control rounded-pill p-4" id="middlename" placeholder="Middlename" required="true">
-                </div>
+								<span class="text-dark create-student-account">Create a Student Account</span>
+								<!-- <br> -->
+								<span class="text-dark start-learning">Sign up and start learning</span>
+							</h4>
+							<br>
+				
+						</div>
 
-            </div>
+						<div class="form-row">
+							
+							<div class="form-group col-md-5 mr-3">
+							  <input type="text" class="form-control rounded-pill p-4 " id="firstname" placeholder="First Name" required="true">
+							</div>
+			
+							<!-- <div class="col-md-1"></div> -->
+			
+							<div class="form-group col-md-5">
+							  <input type="text" class="form-control rounded-pill p-4" id="middlename" placeholder="Middlename" required="true">
+							</div>
+			
+						</div>
+			
+						<br>
+			
+						<div class="form-row">
+							
+							<div class="form-group col-md-5 mr-3">
+							  <input type="text" class="form-control rounded-pill p-4" id="lastname" placeholder="Last Name" required="true">
+							</div>
+			
+							<!-- <div class="col-md-1"></div> -->
+			
+							<div class="form-group col-md-5">
+							  <input type="number" class="form-control rounded-pill p-4" id="parent" placeholder="Parent/Guardian Phone Number" required="true">
+							</div>
+							
+						</div>
+			
+						<br>
+			
+						<div class="form-group">
+							<input type="email" class="form-control rounded-pill p-4 signup-email-width" id="email" placeholder="Email">
+						</div>
+			
+						<br>
+			
+						<div class="form-row">
+							
+							<div class="form-group col-md-5 mr-3 ">
+							  <input type="password" class="form-control rounded-pill p-4" id="password" placeholder="Password" required="true">
+							</div>
+			
+							<!-- <div class="col-md-1"></div> -->
+			
+							<div class="form-group col-md-5">
+							  <input type="password" class="form-control rounded-pill p-4" id="password" placeholder="Confirm Password" required="true">
+							</div>
+							
+						</div>
+			
+						<br>
+			
+						<span class="account-checking">Already Have An Account?
+							<a href="login.html">Login Here</a>
+						</span>
+			
+						<br><br>
+			
+						<div class="text-center student-signup-register-button">
+						   <a href="sms_confirmation.html" class="btn btn-primary btn-lg rounded-pill">REGISTER</a>
+			
+						</div>
 
-            <br>
+						<br>
+			
+					</form>
 
-            <div class="form-row">
-                
-                <div class="form-group col-md-5">
-                  <input type="text" class="form-control rounded-pill p-4" id="lastname" placeholder="Last Name" required="true">
-                </div>
+				</div>
+			</div>
 
-                <div class="col-md-1"></div>
+		</div>
 
-                <div class="form-group col-md-5">
-                  <input type="number" class="form-control rounded-pill p-4" id="parent" placeholder="Parent/Guardian Phone Number" required="true">
-                </div>
-                
-            </div>
+		<br><br><br>
 
-            <br>
+		<a href="index.html">
 
-            <div class="form-group">
-                <input type="email" class="form-control rounded-pill p-4 w-75" id="email" placeholder="Email">
-            </div>
+			<img src="images/Roodito logo_circle.png" class="login-logo-insert w-25">
+	
+		</a>
+	
+		<p class="small-text">
+			<small>Roodito &copy;2020</small>
+			<br>
+			<small class="small-text-two">Privacy Policy. Terms of Service</small>
+		</p>
 
-            <br>
+	</div>
+	
+</body>
 
-            <div class="form-row">
-                
-                <div class="form-group col-md-5">
-                  <input type="password" class="form-control rounded-pill p-4" id="password" placeholder="Password" required="true">
-                </div>
-
-                <div class="col-md-1"></div>
-
-                <div class="form-group col-md-5">
-                  <input type="password" class="form-control rounded-pill p-4" id="password" placeholder="Confirm Password" required="true">
-                </div>
-                
-            </div>
-
-            <br>
-
-            <span class="lead account-checking">Already have an account?
-                <a href="login.html">Login here</a>
-            </span>
-
-            <br><br><br><br>
-
-            <div class="text-center">
-			   <a href="sms_confirmation.html" class="btn btn-primary text-white btn-lg rounded-pill">REGISTER</a>
-
-            </div>
-
-        </form>
-        
-    </div>
 </html>

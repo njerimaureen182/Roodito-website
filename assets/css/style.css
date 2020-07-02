@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,400;0,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600;700&display=swap');
 
 html, body{
     min-height: 100vh;
@@ -16,7 +17,6 @@ html, body{
 /* landing page start */
 .image-one img{
     max-width: 100%;
-    background: gray;
     /* background-image: linear-gradient(red,yellow); */
     opacity: .8;
     /* backface-visibility: hidden; */
@@ -33,15 +33,15 @@ html, body{
     position: relative;
     top: -370px;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 600;
     color: rgba(0, 0, 0, .7);
 }
 
 .landing-img-text p{
     position: relative;
     top: -370px;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.6rem;
+    font-weight: 500;
     color: rgba(0, 0, 0, .7);
 }
 
@@ -60,7 +60,6 @@ html, body{
 .guardian-button{
     width: 13rem;
     padding: 10px;
-
 }
 
 .login-button{
@@ -73,19 +72,6 @@ html, body{
 } */
 /* landing page end */
 
-.profile-img span{
-    color: rgba(2, 117, 216, .8);
-    font-weight: 500;
-}
-
-.dropdown.details a{
-    background-color: rgba(16, 29, 44, 1);
-    width: 13rem;
-    height: 3rem;
-}
-.form-heading h4, .student-signup h4{
-    color: rgba(2, 117, 216, .8);
-}
 
 /* apply section start */
 .section-edit{
@@ -153,7 +139,6 @@ html, body{
     font-size: 1.6rem;
     font-weight: 200;
 }
-
 
 .kcse img{
     width: 120px;
@@ -248,43 +233,165 @@ html, body{
     margin-left: 65px;
 }
 
-
 /* footer end */
 
 /* index.html end */
 
 
-.confirm{
-    background-color: rgba(2, 117, 216, .8);
-    color: white;
+
+/* login.html start */
+.login-card .card{
+    width: 600px;
+}
+.form-heading h4{
+   font-size: 3rem;
+   font-weight: 700;
+   color: rgba(2, 117, 216, .8);
 }
 
-.login-persons a, .account-checking a{
-    color: rgba(2, 117, 216, .8);
-    text-decoration: none;
+.form-heading p{
+    font-weight: 200;
 }
 
-.sms-confirm a, .student-login-confirm a{
-    padding: .7rem;
-    color: white;
-    background-color: rgba(2, 117, 216, .8);
+.form-group input{
+    font-weight: 300;
+}
+
+.account-checking, .account-checking a{
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 300;
+}
+
+.student-login-confirm{
+    width: 10rem;
+    
+}
+
+.login-links a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.eye-icon{
+    width: 30px;
+    margin: -75px 0 0 500px;
+}
+
+.login-logo-insert{
+    margin-left: -50px;
+}
+
+.small-text small{
+    font-weight: 300;
+    margin-left: -50px;
+}
+
+.small-text-two{
+    margin-top: -3px;
+}
+/* login.html end */
+
+
+
+/* .student-signup.html start  */
+.student-signup-card .card{
+    margin-left: -210px; 
+    width: 768px;   
+}
+
+.student-signup h4{
+    font-size: 3rem;
+   font-weight: 700;
+   color: rgba(2, 117, 216, .8);
+   margin-left: 10px;
+
+}
+
+.student-signup span{
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+.signup-email-width{
+    width: 39.5rem;
+}
+
+.create-student-account{
+    margin-left: 170px;
+
+}
+
+.start-learning{
+    margin-left: 349px;
+}
+
+.student-signup-register-button a{
+    width: 10rem;
+}
+
+/* .student-signup.html end  */
+
+
+/* sms_confirmation.html start */
+.sms-confirm a{
+    width: 10rem;
+}
+
+/* sms_confirmation.html end */
+
+
+
+/* subjects.html start */
+
+.avatar-raw-1{
+    width: 45px;
+}
+
+.profile-img img{
+    margin-right: -45px;
+}
+
+.profile-img span{
+    font-weight: 500;
 }
 
 .subjects a{
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
 }
 
-.english p, .kiswahili p, .maths p, .social-studies p, .science p, .cre p{
+.dropdown.details a{
+    background-color: rgba(16, 29, 44, 1);
+    width: 13rem;
+    height: 3rem;
+}
+
+.english-img{
+    width: 85px;
+    margin-top: -55px;
+}
+
+.english{
+    font-size: 1.2rem;
+}
+
+.social-studies-img{
+    margin-left: 13px;
+}
+
+/* subjects.html end */
+
+
+
+/* .kiswahili p, .maths p, .science p, .cre p{
     font-weight: 400;
     text-decoration: none;
-}
+} */
 
-.maths p, .cre p{
+/* .maths p, .cre p{
     margin-left: 40px;
-}
+} */
 
 .english-topic p, 
 .grammar p, 

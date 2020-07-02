@@ -1,86 +1,114 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- <title>Document</title> -->
 <link rel="shortcut icon" href="images/student.png" style="font-size: 40px;" type="image/x-icon">
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
+
+<style>
+    body{
+        background: url('images/log-in.jpg') center fixed no-repeat;
+        background-size: cover;
+    }
+</style>
 </head>
 
+<body>
+    
 <div class="container">
-<br><br>
-    <div class="jumbotron rounded w-75 mx-auto bg-light">
-        <form action="" class="w-75">
+    <br><br><br>
 
-            <div class="form-heading">
-                <h4 class="display-4 font-weight-bold">Log in</h4>
-                <br>
-                <p class="lead">Please provide your valid login credentials.</p>
-            </div>
+    <div class="row">
 
-            <br>
+        <div class="col-md-3"></div>
 
-            <!-- email -->
-            <div class="form-group">
-                
-                <input type="email" class="form-control rounded-pill p-4" id="email" placeholder="Email" required="true">
+        <div class="col-md-7 login-card">
+            <div class="card pl-4 pr-4">
+
+                <form action="">
+        
+                    <div class="form-heading">
+
+                        <h4 class="mt-4">Log in</h4>
+                        <br>
+                        <p class="lead">Please provide your valid login credentials.</p>
+                    </div>
+        
+                    <br>
+        
+                    <!-- email -->
+                    <div class="form-group">
+                        
+                        <input type="email" class="form-control rounded-pill p-4" id="email" placeholder="Email" required="true">
+                    </div>
+                    
+                    <div class="form-group">
+                        
+                        <input type="password" class="form-control rounded-pill p-4" id="password" placeholder="Password" required="true">
+
+                        <img src="images/Icons Raw-6.png" class="eye-icon">
+                        
+                    </div>
+                    
+                    <br>
+        
+                    <span class="account-checking">
+                        <a href="">Forgot your password?</a>
+        
+                    </span>
+        
+                    <br>
+        
+                    <span class="account-checking">Do not have an Account?
+                        <a href="student_signup.html">Sign Up here</a>
+                    </span>
+            
+                    <br><br><br>
+            
+                    <div class="text-center">
+                        <a href="subjects.html" class="btn btn-lg btn-primary rounded-pill student-login-confirm mr-2">CONFIRM
+                        </a>
+            
+                    </div>
+
+                    <br>
+
+                    <div class="login-links">
+
+                        <a href="parent_login.html" class="mr-4 ml-3">Parent / Guardian Login</a>
+                        <a href="parent_login.html" class="mr-4">Tutor Login</a>
+                        <a href="parent_login.html">Teacher Login</a>
+
+                    </div>
+        
+                </form>
+        
+                <br><br>
+        
             </div>
             
-            <br>
-           
-            <div class="form-group">
-                
-                <input type="password" class="form-control rounded-pill p-4" id="password" placeholder="Password" required="true">
-                
-			</div>
-			
-			<br>
-
-			<span class="account-checking lead">
-				<a href="">Forgot your password?</a>
-
-			</span>
-
-            <br><br>
-
-           <span class="lead account-checking">Do not have an account?
-               <a href="student_signup.html">Sign up here</a>
-           </span>
-
-           <br><br><br>
-
-           <div class="text-center student-login-confirm">
-			   <a href="subjects.html" class="rounded-pill lead">CONFIRM</button>
-
-           </div>
-        
-		</form>
-
-		<br>
-
-		<div class="row lead font-weight-bold login-persons">
-
-			<div class="col-md-4">
-				<a href="parent_login.html">Parent/Guardian Login</a>
-
-			</div>
-
-			<div class="col-md-1"></div>
-
-			<div class="col-md-4">
-				<a href="tutor_login.html">Tutor Login</a>
-
-			</div>
-			<div class="col-md-3">
-				<a href="teacher_login.html">Teacher Login</a>
-
-			</div>
-			
-		</div>	
+        </div>
 
     </div>
-    
+
+    <br><br><br>
+
+    <a href="index.html">
+
+        <img src="images/Roodito logo_circle.png" class="login-logo-insert w-25">
+
+    </a>
+
+    <p class="small-text">
+        <small>Roodito &copy;2020</small>
+        <br>
+        <small class="small-text-two">Privacy Policy. Terms of Service</small>
+    </p>
+       
 </div>
+
+</body>
 </html>
