@@ -410,6 +410,10 @@ html, body{
     font-size: 1.4rem;
 }
 
+.grammar-text, .spelling-text, .kcpe-text, .essay-text, .all-text{
+    font-weight: 400;
+}
+
 .grammar-icon-spacing{
     margin-left: 5rem;
 }
