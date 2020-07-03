@@ -466,34 +466,40 @@ html, body{
 
 .grammar-content span{
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.44rem;
 }
 
+
+/* questions.html start */
 .timer button{
     margin-right: 10rem;
-    padding: .7rem;
     color: rgba(2, 117, 216, .8);
     border: 2px solid rgba(2, 117, 216, .8);
     text-decoration: none;
     font-weight: 500;
-    width: 15rem;
+    width: 16rem;
+}
+
+.timer img{
+    width: 30px;
 }
 
 .numbering span{
-    color: rgba(2, 117, 216, .8);
     font-size: 3rem;
+    font-weight: 500;
 }
 
 .quiz span{
-    font-size: 1.6rem;
+    font-size: 1.7rem;
 }
 
 .question-one span{
-    font-size: 1.3rem;
+    font-size: 1.54rem;
 }
 
 .alphabetical-numbering span, .roman-numbering span{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
 }
 
 .switch {
@@ -555,13 +561,20 @@ transform: translateX(26px);
 border-radius: 50%;
 }
 
-.back a, .next a {
-    padding: .7rem;
-    background-color: rgba(2, 117, 216, .8);
-    text-decoration: none;
-    font-weight: 500;
+.back a{
+    margin-left: 5rem;
+}
+
+.next a{
+    margin-left: 7rem;
+}
+
+.back a, .next a{
     width: 10rem;
 }
+
+
+/* questions.html end */
 
 .show-working a, .take-another-test a{
     padding: .7rem;
