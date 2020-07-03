@@ -362,38 +362,74 @@ html, body{
 }
 
 .dropdown.details a{
-    background-color: rgba(16, 29, 44, 1);
+    background-color: rgba(0, 0, 0, .95);
     width: 13rem;
     height: 3rem;
 }
 
 .english-img{
     width: 85px;
-    margin-top: -55px;
 }
 
-.english{
-    font-size: 1.2rem;
+.english, .kiswahili, .maths, .science, .cre, .social-studies{
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-decoration: none;
 }
 
 .social-studies-img{
     margin-left: 13px;
 }
 
+.icon-dropdown{
+    width: 23px;
+}
+
+.subjects-click a{
+    text-decoration: none;
+}
+.dropdown-icon-spacing{
+    margin-left: 65px;
+}
+
 /* subjects.html end */
 
 
 
-/* .kiswahili p, .maths p, .science p, .cre p{
+/* english topics start */
+
+.english-topic h5{
     font-weight: 400;
+    font-size: 1.3rem;
+
+}
+
+.pages span{
+    margin-left: 12rem;
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+
+.grammar-icon-spacing{
+    margin-left: 5rem;
+}
+
+.kcpe-model-icon{
+    width: 32px;
+}
+
+.essay-questions-icon{
+    width: 40px;
+}
+
+.icons a{
     text-decoration: none;
-} */
+}
 
-/* .maths p, .cre p{
-    margin-left: 40px;
-} */
+/* english topics end */
 
-.english-topic p, 
+
+
 .grammar p, 
 .questions p, 
 .score-analysis p, 
@@ -404,18 +440,6 @@ html, body{
     font-weight: 500;
 }
 
-.pages span{
-    margin-left: 6rem;
-}
-
-.icons i{
-    font-size: 3.5rem;
-    color: rgba(2, 117, 216, .8);
-}
-
-.icons a{
-    text-decoration: none;
-}
 
 .dropdown a, .proceed-button a{
     padding: .7rem;
