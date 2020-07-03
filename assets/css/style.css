@@ -422,6 +422,10 @@ html, body{
     width: 32px;
 }
 
+.all-icon{
+    width: 40px;
+}
+
 .essay-questions-icon{
     width: 40px;
 }
@@ -445,21 +449,24 @@ html, body{
 }
 
 
-.dropdown a, .proceed-button a{
-    padding: .7rem;
-    color: white;
-    background-color: rgba(2, 117, 216, .8);
-    text-decoration: none;
-    font-weight: 500;
-    width: 9rem;
-}
+
+/* grammar.html start */
 
 .grammar-content li{
     list-style: none;
 }
 
+.dropdown a{
+    width: 10rem;
+}
+
+.proceed-button a{
+    width: 15rem;
+}
+
 .grammar-content span{
     font-weight: 400;
+    font-size: 1.4rem;
 }
 
 .timer button{
