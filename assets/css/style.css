@@ -12,6 +12,7 @@ html, body{
     font-family: 'Exo 2', sans-serif;
     letter-spacing: .08px;
 }
+
 /* index.html start*/
 
 /* landing page start */
@@ -374,12 +375,16 @@ html, body{
 .english, .kiswahili, .maths, .science, .cre, .social-studies{
     font-size: 1.6rem;
     font-weight: 300;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 .social-studies-img{
     margin-left: 13px;
 }
+
+/* .social-studies{
+    margin-left: -2rem;
+} */
 
 .icon-dropdown{
     width: 23px;
@@ -388,6 +393,7 @@ html, body{
 .subjects-click a{
     text-decoration: none;
 }
+
 .dropdown-icon-spacing{
     margin-left: 65px;
 }
@@ -573,54 +579,64 @@ border-radius: 50%;
     width: 10rem;
 }
 
-
 /* questions.html end */
 
-.show-working a, .take-another-test a{
-    padding: .7rem;
-    background-color: rgba(2, 117, 216, .8);
-    text-decoration: none;
-    font-weight: 500;
-    width: 12rem;
+
+/* score analysis start */
+.correct img, .wrong img{
+    width: 20px;
+    margin-top: -1rem;
 }
 
-.correct i, .wrong i, .stop-watch i{
-    font-size: 2rem;
+.stop-watch img, .analytics img{
+    width: 25px;
+    margin-top: -1rem;
+}
+
+.analytics .arrow-up{
+    width: 15px;
+}
+
+.correct span, .wrong span, .stop-watch span{
+    font-weight: 500;
+    font-size: 2.1rem;
     color: rgba(2, 117, 216, .8);
 }
 
-.correct p, .wrong p, .stop-watch p, .analytics span{
+.correct p, .wrong p, .stop-watch p{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.show-working a, .take-another-test a{
+    width: 15rem;
+}
+
+.show-working a{
+    margin-left: -50px;
+}
+.analytics span{
     font-weight: 400;
 }
 
-.fa-chart-line{
-    color: rgba(2, 117, 216, .8);
-    font-size: 1.3rem;
-}
-
-.fa-long-arrow-alt-up{
-    font-size: 1.2rem;
-}
-
 .result{
-    border: 3px solid rgba(2, 117, 216, .8);
-    border-radius: 80%;
-    font-size: 8rem;
+    border: 4px solid rgba(2, 117, 216, .8);
+    border-radius: 100%;
+    font-size: 7.5rem;
 }
 
 .result span{
     font-size: 6rem;
-    margin-left: 3.1rem;
-    /* transform: translateX(80%); */
-    /* top: 12rem; */
+    margin-left: 2rem;
     color: rgba(2, 117, 216, .8);
 }
 
 .result p{
     font-size: 2.2rem;
-    margin-left: 5.5rem;
-
+    margin-left: 5rem;
 }
+
+/* score_analysis.html end */
 
 .card{
     border: 1px solid #fff;
