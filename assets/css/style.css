@@ -11,6 +11,7 @@ html, body{
     box-sizing: border-box;
     font-family: 'Exo 2', sans-serif;
     letter-spacing: .08px;
+    overflow-x: hidden;
 }
 
 /* index.html start*/
@@ -18,9 +19,7 @@ html, body{
 /* landing page start */
 .image-one img{
     max-width: 100%;
-    /* background-image: linear-gradient(red,yellow); */
     opacity: .8;
-    /* backface-visibility: hidden; */
 }
 
 .landing-img-text h4{
@@ -67,11 +66,6 @@ html, body{
     width: 14rem;
     margin-right: -50px;
 }
-
-/* .login-button .fa-chevron-down{
-    font-size: large;
-} */
-/* landing page end */
 
 
 /* apply section start */
@@ -395,7 +389,7 @@ html, body{
 }
 
 .dropdown-icon-spacing{
-    margin-left: 65px;
+    margin-left: 50px;
 }
 
 /* subjects.html end */
@@ -407,7 +401,6 @@ html, body{
 .english-topic h5{
     font-weight: 400;
     font-size: 1.3rem;
-
 }
 
 .pages span{
@@ -443,25 +436,15 @@ html, body{
 /* english topics end */
 
 
-
-.grammar p, 
-.questions p, 
-.score-analysis p, 
-.my-profile p, 
-.account-topup p,
-.payment-option p,
-.tutors p{
-    font-weight: 500;
-}
-
-
-
 /* grammar.html start */
 
 .grammar-content li{
     list-style: none;
 }
 
+.grammar p{
+    font-weight: 400;
+}
 .dropdown a{
     width: 10rem;
 }
@@ -475,8 +458,15 @@ html, body{
     font-size: 1.44rem;
 }
 
+/* grammar.html end */
+
+
 
 /* questions.html start */
+.questions p{
+    font-weight: 400;
+}
+
 .timer button{
     margin-right: 10rem;
     color: rgba(2, 117, 216, .8);
@@ -583,6 +573,10 @@ border-radius: 50%;
 
 
 /* score analysis start */
+.score-analysis p{
+    font-weight: 400;
+}
+
 .correct img, .wrong img{
     width: 20px;
     margin-top: -1rem;
@@ -636,6 +630,7 @@ border-radius: 50%;
     margin-left: 5rem;
 }
 
+
 /* score_analysis.html end */
 
 .card{
@@ -646,21 +641,57 @@ border-radius: 50%;
 .card-title{
     color: rgba(2, 117, 216, .8);
 }
-.card-avatar{
-    background-color: rgba(2, 117, 216, .8);
+
+
+
+/* profile.html start */
+
+.card.profile-card, .card.my-services{
+    width: 15rem;
 }
 
-.total-questions-done i{
-    font-size: 1.5rem;
+.card-avatar img{
+    margin-left: 10.5rem;
+    width: 70px;
+}
+
+.profile-name{
+    margin-top: -2rem;
+}
+
+.my-profile p{
+    font-weight: 400;
+}
+
+.personal-details p{
+    font-weight: 500;
+}
+
+.pencil-one, .pencil-two{
+    width: 20px;
+    margin: -5rem 0 0 15rem;
+}
+
+.total-questions-done img{
+    width: 1.1rem;
+}
+
+.total-linked-tutors img{
+    width: 1.5rem;
+    margin-left: -4px;
 }
 
 .total-questions-done .count{
     font-weight: 500;
-    color: rgba(2, 117, 216, .8);
+}
+
+.balance img{
+    width: 1.3rem;
+    margin-left: -5px;
 }
 
 .total-questions-done .total{
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .total a{
@@ -668,7 +699,16 @@ border-radius: 50%;
 }
 
 .save{
-    background-color: rgba(2, 117, 216, .8);
+    width: 10rem;
+    /* font-size: 2rem; */
+}
+
+.wallet img{
+    width: 1.5rem;
+}
+
+.your-tutor{
+    margin-left: 1.9rem;
 }
 
 .tutor{
@@ -680,6 +720,20 @@ border-radius: 50%;
     color: rgba(2, 117, 216, .8);
 }
 
+/* profile.html end */
+
+
+
+/* account topup start */
+
+.account-topup p{
+    font-weight: 400;
+}
+
+.amount{
+    width: 40rem;
+}
+
 .credentials span{
     font-size: 1.3rem;
 }
@@ -687,6 +741,12 @@ border-radius: 50%;
 .back-button, .checkout{
     background-color: rgba(2, 117, 216, .8);
     width: 10rem;
+}
+
+
+/* payment_option.html start */
+.payment-option p{
+    font-weight: 400;
 }
 
 .back-payment-option-button, .complete{
